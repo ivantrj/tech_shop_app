@@ -12,6 +12,7 @@
 		2CA3A3EA2B03A4F90047970F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3A3E92B03A4F90047970F /* Assets.xcassets */; };
 		2CA3A3ED2B03A4F90047970F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3A3EC2B03A4F90047970F /* Preview Assets.xcassets */; };
 		2CA3A3F52B03A6E50047970F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3A3F42B03A6E50047970F /* Product.swift */; };
+		2CA3A3F82B03A8720047970F /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3A3F72B03A8720047970F /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2CA3A3E92B03A4F90047970F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA3A3EC2B03A4F90047970F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CA3A3F42B03A6E50047970F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2CA3A3F72B03A8720047970F /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2CA3A3E52B03A4F80047970F /* TechShopAppApp.swift */,
 				2CA3A3E72B03A4F80047970F /* ContentView.swift */,
+				2CA3A3F62B03A8620047970F /* Components */,
 				2CA3A3F32B03A6DA0047970F /* Models */,
 				2CA3A3E92B03A4F90047970F /* Assets.xcassets */,
 				2CA3A3EB2B03A4F90047970F /* Preview Content */,
@@ -76,6 +79,14 @@
 				2CA3A3F42B03A6E50047970F /* Product.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2CA3A3F62B03A8620047970F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3A3F72B03A8720047970F /* ProductCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				2CA3A3E82B03A4F80047970F /* ContentView.swift in Sources */,
 				2CA3A3E62B03A4F80047970F /* TechShopAppApp.swift in Sources */,
 				2CA3A3F52B03A6E50047970F /* Product.swift in Sources */,
+				2CA3A3F82B03A8720047970F /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
