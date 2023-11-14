@@ -11,6 +11,7 @@
 		2CA3A3E82B03A4F80047970F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3A3E72B03A4F80047970F /* ContentView.swift */; };
 		2CA3A3EA2B03A4F90047970F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3A3E92B03A4F90047970F /* Assets.xcassets */; };
 		2CA3A3ED2B03A4F90047970F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3A3EC2B03A4F90047970F /* Preview Assets.xcassets */; };
+		2CA3A3F52B03A6E50047970F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3A3F42B03A6E50047970F /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2CA3A3E72B03A4F80047970F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CA3A3E92B03A4F90047970F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA3A3EC2B03A4F90047970F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CA3A3F42B03A6E50047970F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2CA3A3E52B03A4F80047970F /* TechShopAppApp.swift */,
 				2CA3A3E72B03A4F80047970F /* ContentView.swift */,
+				2CA3A3F32B03A6DA0047970F /* Models */,
 				2CA3A3E92B03A4F90047970F /* Assets.xcassets */,
 				2CA3A3EB2B03A4F90047970F /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				2CA3A3EC2B03A4F90047970F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CA3A3F32B03A6DA0047970F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3A3F42B03A6E50047970F /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2CA3A3E82B03A4F80047970F /* ContentView.swift in Sources */,
 				2CA3A3E62B03A4F80047970F /* TechShopAppApp.swift in Sources */,
+				2CA3A3F52B03A6E50047970F /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
